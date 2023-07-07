@@ -55,11 +55,11 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        "platformName": "Android",
-        "platformVersion": "8.0",
-        "automationName": "UiAutomator2",
-        "app": join(process.cwd(), 'app/Android-NativeDemoApp-0.4.0.apk'),
-        "appWaitActivity": "MainActivity"
+        "appium:platformName": "Android",
+        "appium:platformVersion": "8.0",
+        "appium:automationName": "UiAutomator2",
+        "appium:app": join(process.cwd(), 'app/Android-NativeDemoApp-0.4.0.apk'),
+        "appium:appWaitActivity": "MainActivity"
       }],
     //
     // ===================
