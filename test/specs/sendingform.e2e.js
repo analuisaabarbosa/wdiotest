@@ -1,5 +1,5 @@
 describe('Testing the function FORMS in Webdriver.IO', () => {
-    it('Must complete and submit the form correctly', async() => {
+    it('Must complete the form correctly', async() => {
         await $('~Forms').click()
         await $('~text-input').setValue('Texto texto')
         await $('~input-text-result').getText('Texto texto') 
